@@ -3,8 +3,8 @@
 
 <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js"></script><script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script><script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
-  <title>2048: Your Majesty Natalia Poklonskaya Edition</title>
-  <base href="http://usvsth3m.co.uk/2048/">
+  <title>2048: Russian Governors</title>
+  <base href="http://kazak1487.github.io/2048/">
   <meta name="description" content="A custom version of 2048, the addictive tile-matching game."> 
   <link href="/2048/style/main.css" rel="stylesheet" type="text/css">
 
@@ -13,18 +13,31 @@
   <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-  <link rel="icon" href="http://usvsth3m.co.uk/favicon.ico"> 
-  <link rel="image_src" href="http://games.usvsth3m.com/2048/intro.jpg">
-  <meta property="og:image" content="http://games.usvsth3m.com/2048/intro.jpg">
+  
+  
+  
+  
+  
+  
+  
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
   
   <script src="http://static.usvsth3m.com/wrapper/wrapper.js"></script>
   <link rel="stylesheet" href="http://static.usvsth3m.com/wrapper/wrapper.css">
-
-<style>
   
+<style>
+  /* <link rel="icon" href="http://usvsth3m.co.uk/favicon.ico">/ */ 
+  /* <link rel="image_src" href="http://games.usvsth3m.com/2048/intro.jpg"> */
+  /* <meta property="og:image" content="http://games.usvsth3m.com/2048/intro.jpg"> */
+  
+ /* <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  
+  <script src="http://static.usvsth3m.com/wrapper/wrapper.js"></script>
+  <link rel="stylesheet" href="http://static.usvsth3m.com/wrapper/wrapper.css">*/
   .tile-text {
     display:inline-block;
     vertical-align: middle;
@@ -92,7 +105,7 @@
   
     
   
-  .thisistext, p, a, h1 { color: #ffffff; }
+  .thisistext, p, a, h1 { color: #0000cc; }
   .game-container { background-color: #ffffff }
   
   
@@ -118,8 +131,8 @@ var external_score; // yep, this is a bodge
 function tweet() {
   
   var tweet = {};
-  tweet.message='I scored ' + external_score + " in 2048: Your Majesty Natalia Poklonskaya Edition! Can you beat me?" ;
-  tweet.url="http://games.usvsth3m.com/2048/your-majesty-natalia-poklonskaya-edition/";
+  tweet.message='I scored ' + external_score + " in 2048: Russian Governers! Can you beat me?" ;
+  tweet.url="http://kazak1487.github.io/2048/";
   UVT.sharing.twitter(tweet);
 
 }
@@ -127,10 +140,10 @@ function tweet() {
 function facebook() {
 
   var fbmsg = {};
-  fbmsg.title='I scored ' + external_score + " in 2048: Your Majesty Natalia Poklonskaya Edition! Can you beat me?" ;
+  fbmsg.title='I scored ' + external_score + " in 2048: Russian Governers! Can you beat me?" ;
   fbmsg.message="Make your own versions of addictive slidey-puzzle game 2048.";
-  fbmsg.url="http://games.usvsth3m.com/2048/your-majesty-natalia-poklonskaya-edition/";
-  fbmsg.picture="http://games.usvsth3m.com/2048/intro.jpg";
+  fbmsg.url="http://kazak1487.github.io/2048/";
+  /* fbmsg.picture="http://games.usvsth3m.com/2048/intro.jpg"; */
   UVT.sharing.facebook(fbmsg);
 
 }
